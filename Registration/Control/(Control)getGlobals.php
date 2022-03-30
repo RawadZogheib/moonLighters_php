@@ -12,10 +12,8 @@
     if(mysqli_num_rows($xx)>0){
 		$t1 = 1;
 		$ress = mysqli_fetch_assoc($xx);
-		$accountId=$ress["account_Id"]
-		$json_array[1] = array($accountId,
-							   $ress["account_email"]
-									);
+		$accountId=$ress["account_Id"];
+		$json_array[1] = array($accountId,$email);
 
 	}else $json_array[1] = [];
 
