@@ -40,7 +40,7 @@ if( !empty($data->fname) && !empty($data->lname) && !empty($data->userName) && !
 	$locError6 = $_SERVER["DOCUMENT_ROOT"]  . '/moonLighters_php/Error/View/(View)error6.php';
 	$locSendMail = $_SERVER["DOCUMENT_ROOT"]  . '/moonLighters_php/Registration/Control/(Control)phpMailer.php';
 	$locgetGlobals = $_SERVER["DOCUMENT_ROOT"]  . '/moonLighters_php/Registration/Control/(Control)getGlobals.php';
-	//$locInitWallet $_SERVER["DOCUMENT_ROOT"]  . '/moonLighters_php/Registration/Model/(Model)insertWallet.inc.php';
+	$locInitWallet = $_SERVER["DOCUMENT_ROOT"]  . '/moonLighters_php/Registration/Model/(Model)insertWallet.inc.php';
 	
 	$userNameRegExp = "/^[a-zA-Z0-9_\.]*$/";
 	$phoneRegExp = "/(961|1|86|357|20|33|91|39)[0-9]{8}\b/";
