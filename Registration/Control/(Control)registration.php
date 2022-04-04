@@ -18,7 +18,7 @@ if( !empty($data->fname) && !empty($data->lname) && !empty($data->userName) && !
 	$phoneNumber = htmlspecialchars($data->phoneNumber);
 	$dateOfBirth = htmlspecialchars($data->dateOfBirth);
 	$phoneNumberPlus = '+'.$phoneNumber;
-	$isRegistered = htmlspecialchars($data->isRegistered);
+	//$isRegistered = htmlspecialchars($data->isRegistered);
 
 
 	$locConfig = $_SERVER["DOCUMENT_ROOT"]  . '/moonLighters_php/Config/Model/(Model)config.inc.php';
